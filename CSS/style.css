@@ -1,0 +1,19 @@
+.intro{
+    color: chartreuse;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    animation: slidedown 1.5s ease-out;
+    
+    
+}
+
+@keyframes slidedown {
+    from{
+        transform: translate3D(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translate3D(0px);
+        opacity: 1;
+    }
+}
